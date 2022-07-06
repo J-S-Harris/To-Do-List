@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    }
+
+body {
+ background-color: lightgoldenrodyellow;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+.container * {
+    width: 80%;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+}
+
+.input-button {
+    display: flex;
+    flex-direction: row;
+}
+.input-button * {
+    background-color: peachpuff;
+    border-radius: 3px;
+    font-size: 40px;
+    margin: 15px;
+}
+
